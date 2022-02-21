@@ -2,7 +2,12 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix vars: <http://purl.org/test/variables/> .
 
+vars:test a skos:Concept;
+  skos:inScheme <http://purl.org/test/variables/>;
+  skos:prefLabel "test"@en;
+  skos:topConceptOf <http://purl.org/test/variables/> .
+
 <http://purl.org/test/variables/> a skos:Concept, skos:ConceptScheme;
-  skos:hasTopConcept <http://purl.org/test/variables/>;
+  skos:hasTopConcept <http://purl.org/test/variables/>, vars:test;
   skos:inScheme <http://purl.org/test/variables/>;
   skos:topConceptOf <http://purl.org/test/variables/> .

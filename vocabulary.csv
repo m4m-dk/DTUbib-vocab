@@ -18,7 +18,7 @@ pav:lastUpdatedOn,,Date of the last vocabulary update
 Definition of terms (optionally properties)
 
 Identifier,skos:prefLabel@en,"qudt:unit(separator="","")","skos:altLabel(separator="";"")",skos:definition@en,"dct:source(separator="","")","skos:broader(separator="","")","skos:exactMatch(separator="","")","skos:closeMatch(separator="","")",skos:editorialNote@en,"dct:creator(separator="","")","dct:contributor(separator="","")"
-vars:
+vars:test,test
 vars:
 vars:
 vars:
