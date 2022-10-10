@@ -7,16 +7,18 @@
   dct:creator "Hannah"@en;
   dct:description "DTUbib test"@en;
   dct:title "DTUbib test"@en;
-  skos:hasTopConcept <http://ontology.deic.dk/cv/DTUbib-vocab/>, vars:test, vars:working;
+  skos:hasTopConcept <http://ontology.deic.dk/cv/DTUbib-vocab/>, vars:test;
   skos:inScheme <http://ontology.deic.dk/cv/DTUbib-vocab/>;
   skos:topConceptOf <http://ontology.deic.dk/cv/DTUbib-vocab/> .
 
 vars:test a skos:Concept;
   skos:inScheme <http://ontology.deic.dk/cv/DTUbib-vocab/>;
+  skos:narrower vars:working;
   skos:prefLabel "test"@en;
   skos:topConceptOf <http://ontology.deic.dk/cv/DTUbib-vocab/> .
 
 vars:working a skos:Concept;
+  skos:broader vars:test;
+  skos:definition "this vocabulary is working fine"@en;
   skos:inScheme <http://ontology.deic.dk/cv/DTUbib-vocab/>;
-  skos:prefLabel "working"@en;
-  skos:topConceptOf <http://ontology.deic.dk/cv/DTUbib-vocab/> .
+  skos:prefLabel "working"@en .
