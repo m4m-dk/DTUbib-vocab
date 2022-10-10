@@ -8,8 +8,8 @@ PREFIX,qudt,http://qudt.org/schema/qudt/,"Prefix for ""Quantity, Unit, Dimension
 PREFIX,unit,http://qudt.org/vocab/unit/,"Prefix for QUDT Vocabulary of Units which terms we will use to semantically define units of measurements for terms (i.e., variables) we are defining "
 Metadata about vocabulary
 
-dct:title,DTUbib test,Title of the vocabulary
-dct:description,DTUbib test,Description of the controlled vocabulary
+dct:title,DTUbib-vocab,Title of the vocabulary
+dct:description,Vocabulary produced during an M4M workshop,Description of the controlled vocabulary
 dct:creator,Hannah
 dct:rights,,License under which the vocabulary is provided
 pav:version,,Vocabulary version
@@ -20,7 +20,7 @@ Definition of terms (optionally properties)
 Identifier,skos:prefLabel@en,"qudt:unit(separator="","")","skos:altLabel(separator="";"")",skos:definition@en,"dct:source(separator="","")","skos:broader(separator="","")","skos:exactMatch(separator="","")","skos:closeMatch(separator="","")",skos:editorialNote@en,"dct:creator(separator="","")","dct:contributor(separator="","")"
 vars:test,test
 vars:working,working,,,this vocabulary is working fine,,vars:test
-vars:
+vars:test2,test2
 vars:
 vars:
 vars:
