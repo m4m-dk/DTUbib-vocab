@@ -7,7 +7,7 @@
   dct:creator "Hannah"@en;
   dct:description "DTUbib test"@en;
   dct:title "DTUbib test"@en;
-  skos:hasTopConcept <http://purl.org/test/variables/>, vars:test, vars:working .
+  skos:hasTopConcept <http://purl.org/test/variables/>, vars:test, vars:test2, vars:working .
 
 vars:test a skos:Concept;
   skos:inScheme <http://ontology.deic.dk/cv/DTUbib-vocab/>;
@@ -17,6 +17,11 @@ vars:test a skos:Concept;
 vars:working a skos:Concept;
   skos:inScheme <http://ontology.deic.dk/cv/DTUbib-vocab/>;
   skos:prefLabel "working"@en;
+  skos:topConceptOf <http://ontology.deic.dk/cv/DTUbib-vocab/> .
+
+vars:test2 a skos:Concept;
+  skos:inScheme <http://ontology.deic.dk/cv/DTUbib-vocab/>;
+  skos:prefLabel "test2"@en;
   skos:topConceptOf <http://ontology.deic.dk/cv/DTUbib-vocab/> .
 
 <http://purl.org/test/variables/> a skos:Concept;
