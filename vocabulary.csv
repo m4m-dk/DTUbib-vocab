@@ -1,4 +1,4 @@
-ConceptScheme URI,http://purl.org/test/variables/,Main GUPRI (i.e. PID) under which all terms are defined. Preference is to use PURLs or W3IDs as they provide permanent resolvable identifiers if they are properly configured and managed.,,,,,,,,,,@
+ConceptScheme URI,http://ontology.deic.dk/cv/DTUbib-vocab/,Main GUPRI (i.e. PID) under which all terms are defined. Preference is to use PURLs or W3IDs as they provide permanent resolvable identifiers if they are properly configured and managed.,,,,,,,,,,@
 "Prefixes for controlled vocabularies, schema and ontologies"
 PREFIX,vars,http://purl.org/test/variables/,Prefix for our controlled vocabulary since it is rather tedious to write long URLs all the time
 PREFIX,skos,http://www.w3.org/2004/02/skos/core#,Prefix for SKOS Onotlogy is which our base for defining SKOS based controlled vocabulary
@@ -20,7 +20,7 @@ Definition of terms (optionally properties)
 Identifier,skos:prefLabel@en,"qudt:unit(separator="","")","skos:altLabel(separator="";"")",skos:definition@en,"dct:source(separator="","")","skos:broader(separator="","")","skos:exactMatch(separator="","")","skos:closeMatch(separator="","")",skos:editorialNote@en,"dct:creator(separator="","")","dct:contributor(separator="","")"
 vars:test,test
 vars:working,working
-vars:
+vars:test,test
 vars:
 vars:
 vars:
