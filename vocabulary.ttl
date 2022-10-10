@@ -1,15 +1,13 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix vars: <http://ontology.deic.dk/cv/DTUbib-vocab/> .
+@prefix vars: <http://purl.org/test/variables/> .
 
-<http://ontology.deic.dk/cv/DTUbib-vocab/> a skos:Concept, skos:ConceptScheme;
+<http://ontology.deic.dk/cv/DTUbib-vocab/> a skos:ConceptScheme;
   dct:creator "Hannah"@en;
   dct:description "DTUbib test"@en;
   dct:title "DTUbib test"@en;
-  skos:hasTopConcept <http://ontology.deic.dk/cv/DTUbib-vocab/>, vars:test, vars:working;
-  skos:inScheme <http://ontology.deic.dk/cv/DTUbib-vocab/>;
-  skos:topConceptOf <http://ontology.deic.dk/cv/DTUbib-vocab/> .
+  skos:hasTopConcept <http://purl.org/test/variables/>, vars:test, vars:working .
 
 vars:test a skos:Concept;
   skos:inScheme <http://ontology.deic.dk/cv/DTUbib-vocab/>;
@@ -19,4 +17,8 @@ vars:test a skos:Concept;
 vars:working a skos:Concept;
   skos:inScheme <http://ontology.deic.dk/cv/DTUbib-vocab/>;
   skos:prefLabel "working"@en;
+  skos:topConceptOf <http://ontology.deic.dk/cv/DTUbib-vocab/> .
+
+<http://purl.org/test/variables/> a skos:Concept;
+  skos:inScheme <http://ontology.deic.dk/cv/DTUbib-vocab/>;
   skos:topConceptOf <http://ontology.deic.dk/cv/DTUbib-vocab/> .
