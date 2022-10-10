@@ -1,6 +1,15 @@
+@prefix dct: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix vars: <http://purl.org/test/variables/> .
+
+<http://purl.org/test/variables/> a skos:Concept, skos:ConceptScheme;
+  dct:creator "Hannah"@en;
+  dct:description "DTUbib test"@en;
+  dct:title "DTUbib test"@en;
+  skos:hasTopConcept <http://purl.org/test/variables/>, vars:test, vars:working;
+  skos:inScheme <http://purl.org/test/variables/>;
+  skos:topConceptOf <http://purl.org/test/variables/> .
 
 vars:test a skos:Concept;
   skos:inScheme <http://purl.org/test/variables/>;
@@ -10,9 +19,4 @@ vars:test a skos:Concept;
 vars:working a skos:Concept;
   skos:inScheme <http://purl.org/test/variables/>;
   skos:prefLabel "working"@en;
-  skos:topConceptOf <http://purl.org/test/variables/> .
-
-<http://purl.org/test/variables/> a skos:Concept, skos:ConceptScheme;
-  skos:hasTopConcept <http://purl.org/test/variables/>, vars:test, vars:working;
-  skos:inScheme <http://purl.org/test/variables/>;
   skos:topConceptOf <http://purl.org/test/variables/> .

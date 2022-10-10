@@ -8,9 +8,9 @@ PREFIX,qudt,http://qudt.org/schema/qudt/,"Prefix for ""Quantity, Unit, Dimension
 PREFIX,unit,http://qudt.org/vocab/unit/,"Prefix for QUDT Vocabulary of Units which terms we will use to semantically define units of measurements for terms (i.e., variables) we are defining "
 Metadata about vocabulary
 
-dct:title,,Title of the vocabulary
-dct:description,,Description of the controlled vocabulary
-dct:creator
+dct:title,DTUbib test,Title of the vocabulary
+dct:description,DTUbib test,Description of the controlled vocabulary
+dct:creator,Hannah
 dct:rights,,License under which the vocabulary is provided
 pav:version,,Vocabulary version
 pav:createdOn,,Date when vocabulary was initially created (follow https://en.wikipedia.org/wiki/ISO_8601)
