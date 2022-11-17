@@ -7,7 +7,7 @@
   dct:creator "Hannah"@en;
   dct:description "Vocabulary produced during an M4M workshop"@en;
   dct:title "DTUbib-vocab"@en;
-  skos:hasTopConcept <http://ontology.deic.dk/cv/DTUbib-vocab/>, vars:test, vars:test2;
+  skos:hasTopConcept <http://ontology.deic.dk/cv/DTUbib-vocab/>, vars:test;
   skos:inScheme <http://ontology.deic.dk/cv/DTUbib-vocab/>;
   skos:topConceptOf <http://ontology.deic.dk/cv/DTUbib-vocab/> .
 
@@ -22,8 +22,3 @@ vars:working a skos:Concept;
   skos:definition "this vocabulary is working fine"@en;
   skos:inScheme <http://ontology.deic.dk/cv/DTUbib-vocab/>;
   skos:prefLabel "working"@en .
-
-vars:test2 a skos:Concept;
-  skos:inScheme <http://ontology.deic.dk/cv/DTUbib-vocab/>;
-  skos:prefLabel "test2"@en;
-  skos:topConceptOf <http://ontology.deic.dk/cv/DTUbib-vocab/> .
