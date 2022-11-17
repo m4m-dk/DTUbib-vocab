@@ -1,12 +1,15 @@
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix vars: <http://ontology.deic.dk/cv/DTUbib-vocab/> .
 
 <http://ontology.deic.dk/cv/DTUbib-vocab/> a skos:Concept, skos:ConceptScheme;
-  dct:creator "Hannah"@en;
+  dct:creator "Hannah"@en, "Jitka"@en;
   dct:description "Vocabulary produced during an M4M workshop"@en;
+  dct:rights "CC-BY"@en;
   dct:title "DTUbib-vocab"@en;
+  pav:version "0.0.1"@en;
   skos:hasTopConcept <http://ontology.deic.dk/cv/DTUbib-vocab/>, vars:test;
   skos:inScheme <http://ontology.deic.dk/cv/DTUbib-vocab/>;
   skos:topConceptOf <http://ontology.deic.dk/cv/DTUbib-vocab/> .

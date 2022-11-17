@@ -11,8 +11,9 @@ Metadata about vocabulary
 dct:title,DTUbib-vocab,Title of the vocabulary
 dct:description,Vocabulary produced during an M4M workshop,Description of the controlled vocabulary
 dct:creator,Hannah
-dct:rights,,License under which the vocabulary is provided
-pav:version,,Vocabulary version
+dct:creator,Jitka
+dct:rights,CC-BY,License under which the vocabulary is provided
+pav:version,0.0.1,Vocabulary version
 pav:createdOn,,Date when vocabulary was initially created (follow https://en.wikipedia.org/wiki/ISO_8601)
 pav:lastUpdatedOn,,Date of the last vocabulary update
 Definition of terms (optionally properties)
